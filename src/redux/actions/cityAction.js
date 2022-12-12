@@ -11,8 +11,11 @@ import { types } from "../types/types"
 
 // Middleware
 export const startSaveCities = () => {
+
   return async (dispatch) => {
+
     const cities = (await axios.get(`${URL_API}/api/cities`)).data.response;
+    
     dispatch(saveCities(cities))
   }
 }
