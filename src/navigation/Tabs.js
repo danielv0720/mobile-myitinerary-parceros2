@@ -25,7 +25,9 @@ export default function MyTabs() {
           )
         }} />
           <Tab.Screen name="Login"
+
            component={LoginForm}
+           
            options={{
             tabBarIcon:({color,size})=>(
               <AntDesign name="login" size={30} color={color} />
