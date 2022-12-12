@@ -8,10 +8,6 @@ import SignUp from '../screens/SignUp';
 import Itineraries from '../screens/Itineraries';
 import { AntDesign,MaterialCommunityIcons,SimpleLineIcons,MaterialIcons   } from '@expo/vector-icons'; 
 
-
-
-
-
 const Tab =createBottomTabNavigator();
 
 export default function MyTabs() {
@@ -25,7 +21,7 @@ export default function MyTabs() {
            component={SignUp}
            options={{
             tabBarIcon:({color,size})=>(
-              <MaterialIcons name="app-registration" size={30} color={color} />
+              <MaterialIcons  name="app-registration" size={30} color={color} />
           )
         }} />
           <Tab.Screen name="Login"
