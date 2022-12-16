@@ -9,6 +9,8 @@ export default function City(props) {
   const [city, setCity] = useState(null);
   const [ itineraryId] = useState();
 
+
+  
   useEffect(() => {
     axios.get(`${URL_API}/api/cities/${idCity}`).then((response) => {
       setCity(response.data);
