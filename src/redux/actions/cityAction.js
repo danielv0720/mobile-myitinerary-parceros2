@@ -21,7 +21,9 @@ export const startSaveCities = () => {
 }
 
 // Sin filtros
+
 // Middleware
+
 export const startSaveCitiesWithFilter = (path) => {
   return async (dispatch) => {
     const cities = (await axios.get(path)).data.response;

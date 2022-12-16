@@ -15,7 +15,7 @@ export default function MyTabs() {
       <Tab.Navigator
       initialRouteName='home'
       screenOptions={{
-        tabBarActiveTintColor: 'purple'
+        tabBarActiveTintColor: ''
       }}>
                   <Tab.Screen name="SignUp"
            component={SignUp}
