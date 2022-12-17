@@ -43,12 +43,8 @@ export default function LoginForm() {
       value={password} />
       </View>
 
-      
       <View style={styles.viewText}>
 
-
-
-      
       <Button onPress={handlerSignIn} mode="contained">Signin</Button>
       </View>
       
