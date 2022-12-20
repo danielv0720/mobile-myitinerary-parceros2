@@ -47,7 +47,6 @@ export default function LoginForm() {
 
       <Button onPress={handlerSignIn} mode="contained">Signin</Button>
       </View>
-      
     </View>
   )
 }
