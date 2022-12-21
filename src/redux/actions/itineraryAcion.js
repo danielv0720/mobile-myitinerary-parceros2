@@ -3,9 +3,6 @@ import Swal from "sweetalert2";
 import { URL_API } from "../../api/url";
 import { types } from "../types/types"
 
-
-
-
 // ------------------- Obtener itineraries por id ------------------- 
 // Middleware
 export const startSaveMyItineraries= (id) =>{

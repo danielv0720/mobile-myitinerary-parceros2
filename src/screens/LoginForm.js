@@ -42,16 +42,12 @@ export default function LoginForm() {
       onChangeText={(e) => setPassword(e)}
       value={password} />
       </View>
-
       <View style={styles.viewText}>
-
       <Button onPress={handlerSignIn} mode="contained">Signin</Button>
       </View>
     </View>
   )
 }
-
-
 
 const styles = StyleSheet.create({
   container: {
