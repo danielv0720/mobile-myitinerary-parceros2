@@ -11,9 +11,6 @@ export const startSaveMyItineraries= (id) =>{
     dispatch(saveMyItineraries(myitineraries))
   }
 }
-
-
-
 // Action creator
 export const saveMyItineraries = (myitineraries) => {
   return {
